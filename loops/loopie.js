@@ -13,19 +13,19 @@ function countUneven() {
 // 2.	Make a program that prints all positive numbers that are smaller 
 // than 100 and even, in this order:
 // 2 98 4 96 6 94 …
-
+// WIP TÄÄ EI TOIMI.
 function countToggler() {
-// >= pienempi tai yhtäkuin symboli.
+    // >= pienempi tai yhtäkuin symboli.
     for (let i = 0; i <= 100; i++) {
-        if(i % 2 === 0) {
+        if (i % 2 === 0) {
             console.log(i)
         } for (let j = 100; j >= 0; j--) {
             if (j % 2 === 0) {
                 console.log(j)
-            } 
             }
         }
     }
+}
 
 //  Make a program that asks repeatedly from the user the distance (km) and time (h) and calculates average speed. The program ends when user gives 0 for the distance. (After getting 0, the program does not ask anything from the user.)
 
